@@ -18,5 +18,5 @@ pip3 install matplotlib
 
 Run the app.
 ```
-python wordcloud.py
+python3 wordcloud.py
 ```
