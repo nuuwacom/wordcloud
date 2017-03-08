@@ -1,8 +1,9 @@
 #!/usr/bin/env python
-#-*-coding:utf-8-*-
+# -*-coding:utf-8-*-
 import jieba
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+
+from wordcloud import WordCloud
 
 s1 = """ 在克鲁伊夫时代，巴萨联赛中完成了四连冠，后三个冠军都是在末轮逆袭获得的。
 在91/92赛季，巴萨末轮前落后皇马1分，结果皇马客场不敌特内里费使得巴萨逆转。
@@ -22,7 +23,9 @@ s3 = """在48/49赛季中，巴萨末轮2比1拿下同城死敌西班牙人，�
 mylist = [s1, s2, s3]
 word_list = [" ".join(jieba.cut(sentence)) for sentence in mylist]
 new_text = ' '.join(word_list)
-wordcloud = WordCloud(font_path="F:\\WinPython-32bit-3.4.3.5\\python-3.4.3\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\msyh.ttf", background_color="black").generate(new_text)
+wordcloud = WordCloud(
+    font_path="F:\\WinPython-32bit-3.4.3.5\\python-3.4.3\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\msyh.ttf",
+    background_color="black").generate(new_text)
 plt.imshow(wordcloud)
 plt.axis("off")
 plt.show()
