@@ -20,3 +20,6 @@ Run the app.
 ```
 python3 wordcloud.py
 ```
+
+### Limitation:
+Only works in Windows
