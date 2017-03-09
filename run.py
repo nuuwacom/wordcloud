@@ -3,7 +3,7 @@
 import jieba
 import matplotlib.pyplot as plt
 
-from wordclouds import WordCloud
+from wordcloud import WordCloud
 
 s1 = """ 在克鲁伊夫时代，巴萨联赛中完成了四连冠，后三个冠军都是在末轮逆袭获得的。
 在91/92赛季，巴萨末轮前落后皇马1分，结果皇马客场不敌特内里费使得巴萨逆转。
