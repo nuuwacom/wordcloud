@@ -1,4 +1,4 @@
-# worldcloud
+# Word Cloud
 
 ### Installation:
 
