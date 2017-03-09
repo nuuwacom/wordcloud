@@ -1,4 +1,4 @@
-# Word Cloud
+# Word loud
 
 ### Installation:
 
@@ -18,7 +18,7 @@ pip3 install matplotlib
 
 Run the app.
 ```
-python3 wordcloud.py
+python3 run.py
 ```
 
 ### Limitation:
