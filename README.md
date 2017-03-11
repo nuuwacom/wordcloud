@@ -1,4 +1,4 @@
-# Word loud
+# Word Cloud
 
 ### Installation:
 
