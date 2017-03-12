@@ -6,7 +6,7 @@
 pip3 install jieba
 ```
 
-Download and install Visual CPP Build Tool:
+For Windows, you will need to download and install Visual CPP Build Tool:  
 http://landinghub.visualstudio.com/visual-cpp-build-tools
 
 ```
@@ -20,6 +20,3 @@ Run the app.
 ```
 python3 run.py
 ```
-
-### Limitation:
-Only works in Windows
